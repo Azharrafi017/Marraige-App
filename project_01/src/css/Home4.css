@@ -1,0 +1,245 @@
+.home4-box1 {
+  height: 140px;
+  width: 587px;
+  display: flex;
+  border-right: 1px dotted #bce3ff;
+  border-bottom: 1px dotted #bce3ff;
+}
+.home4-box1 img {
+  width: 100px;
+  height: 100px;
+}
+
+.home4-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+}
+.home4-text p {
+  color: #686868;
+  width: 282px;
+  height: 66px;
+}
+.home4-text h3 {
+  margin-bottom: 2vh;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3vw;
+}
+.home4-box2 img {
+  width: 100px;
+  height: 100px;
+}
+.home4-box2 {
+  height: 140px;
+  width: 587px;
+  display: flex;
+  border-bottom: 1px dotted #bce3ff;
+}
+.home4 {
+  width: 90vw;
+  margin: auto;
+  margin-top: 11vh;
+}
+.home4-I {
+  display: flex;
+  margin: auto;
+  width: 1176px;
+  box-shadow: 0px 0px 35.4px 0px #0000000f;
+}
+.image-project {
+  width: 86px;
+  height: 86px;
+}
+.home4-img {
+  margin-left: 2.5vw;
+}
+.BORDER {
+  border-bottom: none;
+}
+@media screen and (max-width: 1000px) and (min-width: 500px) {
+  .home4-I {
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    box-shadow: none;
+    /* border: 2px solid red; */
+  }
+  .home4-box1 img {
+    width: 6vw;
+    height: 4vh;
+    /* border: 2px dotted red; */
+  }
+  .home4-box2 img {
+    width: 6vw;
+    height: 4vh;
+    /* border: 2px dotted red; */
+  }
+  .image-project {
+    width: 7.5vw;
+    height: 4vh;
+    /* border: 2px dotted red; */
+  }
+  .home4-box1 {
+    height: 8vh;
+    width: 38vw;
+    box-shadow: 0px 0px 35.4px 0px #0000000f;
+    /* border: 2px dotted red; */
+  }
+  .home4-box2 {
+    height: 8vh;
+    width: 38vw;
+    box-shadow: 0px 0px 35.4px 0px #0000000f;
+  }
+  .home4 {
+    width: 90vw;
+    margin-top: 4vh;
+    /* border: 2px dotted red; */
+  }
+  .image {
+    margin-left: 4vw;
+  }
+  .home4-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 2vw;
+    height: 6vh;
+    /* border: 2px solid rgb(27, 185, 48); */
+  }
+  .home4-text p {
+    color: #686868;
+    width: 18vw;
+    height: 4vh;
+    margin: 0;
+    /* border: 2px dotted red; */
+  }
+  .home4-text h3 {
+    /* border: 2px dotted red; */
+    margin: 0;
+    margin-top: 1.2vh;
+  }
+  .font-4 {
+    font-size: 0.4em;
+    line-height: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home4 {
+    width: 90vw;
+    box-shadow: 0px 0px 35.4px 0px #0000000f;
+    margin: auto;
+    /* border: 2px solid red; */
+    margin-top: 3vh;
+  }
+
+  .img-1 {
+    width: 59px;
+    height: 58px;
+    /* border: 2px solid red; */
+  }
+  .img-2 {
+    width: 54px !important;
+    height: 54px !important;
+  }
+  .img-3 {
+    width: 52px;
+    height: 52px;
+  }
+  .img-4 {
+    width: 44px !important;
+    height: 44px !important;
+  }
+
+  .home4 h3 {
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    color: #000000;
+  }
+  .home4 p {
+    font-family: Jost;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.8px;
+    color: #686868;
+    width: 155px;
+  }
+  .home4-image {
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    justify-content: end;
+  }
+
+  .home4-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6vw;
+  }
+  .box1 {
+    display: flex;
+    width: 90vw;
+    height: 140px;
+    border-bottom: 1px dotted #bce3ff;
+  }
+  .box2 {
+    display: flex;
+    width: 90vw;
+    height: 140px;
+    border-bottom: 1px dotted #bce3ff;
+  }
+  .box1 p {
+    margin-top: 0vh;
+  }
+  .box1 img {
+    margin-top: 3vh;
+  }
+  .box2 p {
+    width: 50vw;
+  }
+  .box2 h3 {
+    margin-top: 8vw;
+    margin-left: 1.5vw;
+  }
+  .box3 {
+    display: flex;
+    width: 90vw;
+    height: 140px;
+    border-bottom: 1px dotted #bce3ff;
+  }
+  .box3 p {
+    width: 40vw;
+    margin-top: 0.05vh;
+  }
+  .box3 h3 {
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+  }
+  .box3 img {
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+  }
+  #image4 {
+    width: 35vw;
+  }
+  .box4 {
+    display: flex;
+    width: 90vw;
+    height: 140px;
+  }
+  .box4 p {
+    width: 55vw;
+  }
+  .box4 h3 {
+    margin-top: 3vh;
+  }
+  .box4 img {
+    margin-right: 4vw;
+  }
+}

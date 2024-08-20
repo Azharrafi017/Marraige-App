@@ -1,0 +1,82 @@
+.home7 {
+  background: #64aadd29;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 320px;
+  justify-content: space-evenly;
+}
+.home7 p {
+  margin-top: 5vh;
+}
+.home7-heading {
+  font-family: Jost;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 67.2px;
+  text-align: center;
+}
+.home7 button {
+  width: 182px;
+  height: 57px;
+  background: #2f2f2f;
+  padding: 18px 44px 17px 45px;
+  border-radius: 9px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 2vh;
+}
+.random {
+  font-family: Jost;
+  font-weight: 500;
+  text-align: center;
+}
+@media screen and (max-width: 1500px) and (min-width: 500px) {
+  .home7-heading {
+    font-family: Jost;
+    font-size: 3.5vw;
+    font-weight: 500;
+    line-height: 67.2px;
+    text-align: center;
+  }
+  .home7 {
+    height: 25vh;
+  }
+  .font-7 {
+    font-size: 1.8vw;
+  }
+  .home7 button {
+    width: 17vw;
+    height: 4vh;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background: #2f2f2f;
+    font-size: 1.2vw;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .font-style {
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: center;
+  }
+  .home7-heading {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.6px;
+    text-align: center;
+    width: 80vw;
+  }
+  .home7 button {
+    width: 170px;
+    height: 57px;
+    padding: 18px 44px 17px 45px;
+    border-radius: 9px;
+  }
+}

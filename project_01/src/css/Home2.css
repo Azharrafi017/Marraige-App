@@ -1,0 +1,140 @@
+.Home-2 {
+  color: #ffffff;
+  background: url("https://res.cloudinary.com/dlxpf7d8c/image/upload/v1723460793/celebrato/ce9b79m7qkqfsmhsu2gr.png")
+      left,
+    url("https://res.cloudinary.com/dlxpf7d8c/image/upload/v1723460794/celebrato/da9dknicnwr5mlyr5re0.png")
+      center,
+    url("https://res.cloudinary.com/dlxpf7d8c/image/upload/v1723460792/celebrato/gp9deouxzhc8su2wucgt.png")
+      right;
+  background-repeat: no-repeat;
+  background-size: 22vw 32vw, 57vw 32vw, 22vw 32vw;
+  height: 32vw;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: -1;
+  justify-content: flex-end;
+  box-shadow: 3vw 0px 6vw rgb(0, 0, 0) inset, -3vw 0px 6vw rgb(0, 0, 0) inset;
+  /* border: 2px solid rgb(25, 23, 163); */
+}
+.Home-2 p {
+  width: 30vw;
+  position: absolute;
+  left: 26.5vw;
+  top: 24vw;
+}
+.font-style3 {
+  font-family: "jost";
+  font-weight: 500;
+  font-size: 1.4vw;
+  line-height: 2vw;
+}
+.Home-2Arr {
+  display: flex;
+  width: 14.5vw;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 26.3vw;
+  top: 29vw;
+  z-index: 1;
+  cursor: pointer;
+}
+.photo-2 {
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 3vh;
+  left: 26vw;
+  width: 13vw;
+  height: 1px;
+}
+.Home-2Arr img {
+  width: 130px;
+  height: 12px;
+  /* border: 2px solid red; */
+}
+.Home-2-btn {
+  font-family: "jost";
+  font-weight: 500;
+}
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .Home2 {
+    box-shadow: 2vw 0px 5vw rgb(0, 0, 0) inset, -2vw 0px 5vw rgb(0, 0, 0) inset;
+  }
+  .Home-2Arr {
+    width: 14vw;
+    top: 28.5vw;
+  }
+  .Home-2-btn {
+    font-size: 1.3vw;
+    font-family: "jost";
+    font-weight: 500;
+  }
+  .Home-2Arr img {
+    width: 7vw;
+    height: 1vw;
+    /* border: 2px solid red; */
+  }
+  .photo-2 {
+    width: 12vw;
+    top: 2vw;
+    height: 0.16vw;
+  }
+}
+@media screen and (max-width: 450px) {
+  .Home-2 {
+    margin-top: 6vh;
+    background-image: url("https://res.cloudinary.com/dlxpf7d8c/image/upload/v1723460794/celebrato/da9dknicnwr5mlyr5re0.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    background-size: 100vw 272px;
+    height: 272px;
+    box-shadow: none;
+  }
+  .Home-2 p {
+    width: 330px;
+    position: absolute;
+    left: 3.5vw;
+    top: 21vh;
+    font-size: 3.5vw;
+    line-height: 20px;
+  }
+  .photo-2 {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 1.5vh;
+    left: 5vw;
+    width: 100px;
+  }
+  .font-style3 {
+    font-family: "jost";
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 2vw;
+  }
+  .Home-2Arr {
+    display: flex;
+    width: 30vw;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 3vw;
+    top: 26vh;
+    cursor: pointer;
+  }
+  .Home-2Arr img {
+    width: 15vw;
+    height: 1.2vh;
+    /* justify-content: space-between; */
+    /* border: 2px solid red; */
+  }
+  .Home-2-btn {
+    font-size: 3vw;
+    font-family: "jost";
+    font-weight: 500;
+  }
+}
